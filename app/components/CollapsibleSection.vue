@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { shallowRef, computed } from 'vue'
 import { LinkBase } from '#components'
-import type { IconClass } from '../types/icon'
+import type { IconClass } from '~/types/icon'
 
 interface Props {
   title: string
