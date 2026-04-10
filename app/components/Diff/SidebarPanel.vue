@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { packageRoute } from '~/utils/router'
-import type { IconClass } from '../../types/icon'
+import type { IconClass } from '~/types/icon'
 
 const props = defineProps<{
   compare: CompareResponse
